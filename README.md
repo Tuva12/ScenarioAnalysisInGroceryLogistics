@@ -6,28 +6,29 @@ The project studies how delivery planning can be improved using prediction and o
 ## What the notebooks do
 
 ### 1 data_cleaning.ipynb
-Cleans and prepares the data.
+Cleans and prepares the raw delivery data. This includes standardising column names, converting date and time columns, removing invalid records, filtering weekday deliveries, and preparing the dataset for later analysis.
 
 ### 2 EDA.ipynb
-Explores the data and shows patterns.
+Performs exploratory data analysis. This notebook investigates patterns in delivery service time, customer frequency, workload variables, weekday effects, and route identifier stability.
 
 ### 3 Feature Engineering.ipynb
-Creates variables for the models.
+Creates model features used for forecasting. This includes time-based variables, lag features, rolling statistics, customer-level ordering, and other variables used as input to the forecasting models.
 
 ### 4 linear regression model.ipynb
-Builds a simple baseline model.
+Implements a simple linear regression baseline model. The baseline is used to compare the performance of the Temporal Fusion Transformer models.
 
 ### 5 TFT_model.ipynb
-Trains a machine learning model (TFT) to predict service time.
+Trains and evaluates the Temporal Fusion Transformer model for service-time forecasting. The notebook includes model configuration, training, validation, and forecasting performance evaluation.
 
 ### scenario 1.ipynb
-Tests normal route planning.
+Tests normal operations by reordering stops within existing delivery time windows using OR-Tools.
 
 ### scenario 2.ipynb
-Tests higher volume (more goods).
+Tests a volume shock scenario where delivered volume increases at selected stops. The notebook evaluates whether re-optimisation can restore route feasibility under capacity constraints.
 
 ### scenario 3.ipynb
-Tests fewer vehicles.
+Tests a reduced fleet scenario where selected vehicles are removed and their workload is reassigned to remaining vehicles.
+
 
 ## Method
 
