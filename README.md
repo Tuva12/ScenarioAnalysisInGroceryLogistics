@@ -1,4 +1,4 @@
-# Bachelor Project – Scenario Analysis in Grocery Logistics
+# Bachelor Project - Scenario Analysis in Grocery Logistics
 
 This repository contains the code used in my bachelor thesis.
 The project studies how delivery planning can be improved using prediction and optimisation.
