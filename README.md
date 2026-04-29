@@ -39,14 +39,16 @@ The project uses a predict-then-optimise approach:
 
 ## Tools
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- PyTorch Forecasting
-- PyTorch Lightning
-- Google OR-Tools
+pandas
+numpy
+matplotlib
+scikit-learn
+torch
+pytorch-lightning
+pytorch-forecasting
+ortools
+jupyter
+openpyxl
   
 ## Note
 
