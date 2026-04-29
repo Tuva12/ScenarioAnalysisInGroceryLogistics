@@ -39,17 +39,26 @@ The project uses a predict-then-optimise approach:
 
 ## Tools
 
-pandas
-numpy
-matplotlib
-scikit-learn
-torch
-pytorch-lightning
-pytorch-forecasting
-ortools
-jupyter
-openpyxl
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- torch
+- pytorch-lightning
+- pytorch-forecasting
+- ortools
+- jupyter
+- openpyxl
   
 ## Note
 
 The data is not included because it is based on real company data.
+
+
+## Prototype
+
+The live prototype can be accessed here:
+https://prototype-2rsyurwczp3rzb8f8kbpju.streamlit.app/
+
+The source code repository is available here:
+https://github.com/Tuva12/Prototype
